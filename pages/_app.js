@@ -1,6 +1,7 @@
-import React from 'react';
-import Head from 'next/head';
-import App, { Container } from 'next/app';
+import React, { Fragment } from 'react'
+import Head from 'next/head'
+import App from 'next/app'
+import Src from 'src'
 // import getConfig from 'next/config';
 // import config, { getRoutes } from 'clik/configs'
 // import actions from 'clik/actions'
@@ -9,8 +10,7 @@ import App, { Container } from 'next/app';
 
 // import '@fortawesome/fontawesome-svg-core/styles.css';
 // import 'clik/icons';
-import '../static/style.css';
-
+import '../static/style.css'
 
 // const routes = getRoutes();
 // const { publicRuntimeConfig } = getConfig();
@@ -21,12 +21,14 @@ export default class extends App {
 	render() {
 		const { Component, pageProps, router = {}, init } = this.props;
 		return (
-			<Container>
+      <Fragment>
 				<Head>
           <title>Unisi - MVP projects</title>
         </Head>
-				<Component {...pageProps} init={init} />
-			</Container>
+				<main className="prim:3672f8 sec:b01eff txt:747482 dp:flx jc:c bg:FBFBFB">
+			  	<Component {...pageProps} init={init} />
+				</main>
+      </Fragment>
 		);
 	}
 

@@ -1,19 +1,7 @@
 import { fustyle } from 'next-fucss/utils'
 import styled, { css } from 'styled-components'
 
-export default props => {
-  if(!props.type)
-    return <DefaultWrap {...props}>{props.children}</DefaultWrap>
-  else if(props.type === "fixedTop")
-    return <FixedWrapTop {...props}>{props.children}</FixedWrapTop>
-  else if(props.type === "fixedRight")
-    return <FixedWrapRight {...props}>{props.children}</FixedWrapRight>
-  else if(props.type === "options")
-    return <OptionsWrap {...props}>{props.children}</OptionsWrap>
-  return props.children
-}
-
-const DefaultWrap = styled.div`
+export default styled.div`
   ${props => fustyle(props && props.fucss || 'dp:bk')}
   ${props =>
     fustyle({
