@@ -22,7 +22,7 @@
     "actstore": "0.0.28",
     "markdown-to-jsx": "^6.10.3",
     "next": "^9.0.8",
-    "next-fucss": "^0.1.9",
+    "next-fucss": "^0.1.11",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-icons": "^3.7.0",

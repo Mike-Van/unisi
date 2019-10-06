@@ -19,12 +19,8 @@ export default props => {
 }
 
 const StyledButton = styled.button`
-  ${fustyle({
+  ${ props => fustyle({
     'p,m:0 fw:600 hv-trx:2px ts:all bs:5 dp:flx ai:c': true,
     'bg:lg-162dg-prim-sec p:10px-30px-10px-40px c:white br:80px': true
-  })}
-  ${props =>
-    fustyle({
-      'dp:flx ai:c': props.inline
-    })}
+  }, props.theme)}
 `

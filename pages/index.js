@@ -30,7 +30,7 @@ export default () => (
       </Src.Elems.Wrap>
 
       <img
-        className="mxw:600px md-m-l:40px w:100pc mdx-m-t:40px" 
+        className="mxw:600px md-m-l:40px w:100pc mdx-m-t:40px"
         src="https://firebasestorage.googleapis.com/v0/b/theunisi.appspot.com/o/unisi%2Fvideo.svg?alt=media&token=18b4fc94-9d8b-4c87-a92f-ff84db6229af" />
       <Src.Elems.Video
         muted autoPlay
@@ -43,7 +43,7 @@ export default () => (
 
 
 const Logo = styled(Src.Elems.Link)`
-  ${fustyle('fs:120pc c:prim fw:800 tt:uc')}
+  ${props => fustyle('fs:120pc c:prim fw:800 tt:uc', props.theme)}
 `
 
 const Title = styled.h1`

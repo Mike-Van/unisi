@@ -26,7 +26,7 @@ export default class extends Document {
           {false && <link rel="manifest" href="./static/manifest.json" />}
           <link rel="shortcut icon" type="image/x-icon" href="./static/favicon.ico" />
           <link rel="icon" type="image/x-icon" href="./static/favicon.ico" />
-          <link font-src="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,700|PT+Serif:400" href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700" rel="stylesheet" />
+          <link font-src="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,700|PT+Serif:400" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,700|PT+Serif:400" rel="stylesheet" />
           {this.props.styleTags}
         </Head>
         <body>
