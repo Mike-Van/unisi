@@ -4,10 +4,10 @@ import { fustyle } from 'next-fucss/utils'
 import Wrap from './wrap'
 
 export default props => {
-  if(!props.icon)
-    return null
+  // if(!props.icon)
+  return null
 
-  const Icon = require(`react-icons/${props.family || 'fa'}/`)[props.icon];
+  // const Icon = require(`react-icons/${props.family || 'fa'}/`)[props.icon];
 
   return (
     <Wrap fucss="m-l:5px lh:1 dp:ib m-t:2px">

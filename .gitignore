@@ -25,3 +25,5 @@ yarn-error.log*
 package-lock.json
 
 /static/style.css
+firebase-debug.log
+/.firebase
