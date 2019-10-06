@@ -29,8 +29,13 @@ export default () => (
         </Src.Elems.Wrap>
       </Src.Elems.Wrap>
 
-      <img className="mxw:600px md-m-l:40px w:100pc mdx-m-t:40px" src="/static/video.svg" />
-      <Src.Elems.Video fucss="md-ps:ab mdx-try:110npc t,r:0 mxw:680px m-t:35px m-r:80px" muted autoPlay src="/static/video.mp4" />
+      <img
+        className="mxw:600px md-m-l:40px w:100pc mdx-m-t:40px" 
+        src="https://firebasestorage.googleapis.com/v0/b/theunisi.appspot.com/o/unisi%2Fvideo.svg?alt=media&token=18b4fc94-9d8b-4c87-a92f-ff84db6229af" />
+      <Src.Elems.Video
+        muted autoPlay
+        fucss="md-ps:ab mdx-try:110npc t,r:0 mxw:680px m-t:35px m-r:80px"
+        src="https://firebasestorage.googleapis.com/v0/b/theunisi.appspot.com/o/unisi%2Fvideo.mp4?alt=media&token=c486d2b1-629c-4eb0-8de7-3bebccdc4faa" />
 
     </Src.Elems.Wrap>
   </Src.Comps.Layout>
